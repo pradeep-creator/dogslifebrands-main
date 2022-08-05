@@ -83,6 +83,7 @@ export default function Index() {
                                             <input value={phone} type="text" id="phone" required name="phone" placeholder="Your phone.." onChange={e => setPhone(e.target.value)} />
 
                                             <label htmlFor="message">Message</label>
+
                                             <textarea value={body} id="message" required name="message" placeholder="Write something.."
                                                 style={{ height: "200px" }} onChange={e => setBody(e.target.value)}></textarea>
 
